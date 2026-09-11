@@ -16,10 +16,10 @@
       <label for="menu-toggle" class="menu-icon" aria-hidden="true">☰</label>
 
       <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="Sobrenos.html">Sobre Nós</a></li>
+        <li><a href="Menu.html">Início</a></li>
+        <li><a href="Sobre nos.html">Sobre Nós</a></li>
         <li><a href="servicos.html">Serviços</a></li>
-        <li><a href="Contactos.html" aria-current="page">Contactos</a></li>
+        <li><a href="contactos.html" aria-current="page">Contactos</a></li>
       </ul>
     </nav>
   </header>
@@ -34,30 +34,34 @@
     <div class="contact-grid">
       <section class="card">
         <h2>Envie uma Mensagem</h2>
-        <form action="#" method="POST" style="margin-top: 1rem;">
+        <form action="https://formsubmit.co/mateanacleto@gmail.com" method="POST" style="margin-top: 1rem;">
+          <input type="hidden" name="_subject" value="Nova mensagem - Tech Solutions">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
           <div class="form-group">
             <label for="nome">Nome Completo</label>
-            <input type="text" id="nome" name="nome" required placeholder="O seu nome">
+            <input type="text" id="nome" name="Nome Completo" required placeholder="O seu nome">
           </div>
           <div class="form-group">
             <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" required placeholder="seu@email.com">
+            <input type="email" id="email" name="E-mail" required placeholder="seu@email.com">
           </div>
           <div class="form-group">
             <label for="servico">Serviço Pretendido</label>
-            <select id="servico" name="servico">
+            <select id="servico" name="Serviço Pretendido">
               <option value="">Seleccione uma opção</option>
-              <option value="rede">Instalação de Rede</option>
-              <option value="reparacao">Reparação de Computador</option>
-              <option value="windows">Instalação de Windows / Software</option>
-              <option value="manutencao">Manutenção Preventiva</option>
-              <option value="remoto">Suporte Remoto</option>
-              <option value="outro">Outro</option>
+              <option value="Instalação de Rede">Instalação de Rede</option>
+              <option value="Reparação de Computador">Reparação de Computador</option>
+              <option value="Instalação de Windows / Software">Instalação de Windows / Software</option>
+              <option value="Manutenção Preventiva">Manutenção Preventiva</option>
+              <option value="Suporte Remoto">Suporte Remoto</option>
+              <option value="Outro">Outro</option>
             </select>
           </div>
           <div class="form-group">
             <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" name="mensagem" rows="4" required placeholder="Descreva o que precisa"></textarea>
+            <textarea id="mensagem" name="Mensagem" rows="4" required placeholder="Descreva o que precisa"></textarea>
           </div>
           <button type="submit" class="btn-submit">Enviar Mensagem</button>
         </form>
@@ -68,7 +72,7 @@
           <h2>Contactos Directos</h2>
           <div class="contact-item">
             <strong>E-mail</strong>
-            <a href="mailto:anacletomate12@email.com">anacletomate12@email.com</a>
+            <a href="mailto:mateanacleto@gmail.com">mateanacleto@gmail.com</a>
           </div>
           <div class="contact-item">
             <strong>Telefone</strong>
